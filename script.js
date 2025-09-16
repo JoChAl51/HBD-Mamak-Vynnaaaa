@@ -166,7 +166,7 @@ new TypeIt("#teks1", {
 }).go();
 
 new TypeIt("#teks2", {
-  strings: ["Dibalik surat kado yang mamak udah baca (abis ini selain kado website, ada kado video juga ya mak, di click aja terus pokoknya :D), ocep harap mamak tetep lakuin sesuai dengan apa yang Tuhan mau ya.", " ", "Mau gimanapun juga, hubungan kita sebagai mamak dan anak, dilandaskan dengan tujuan untuk kita sama-sama tetap selalu bertumbuh hidup didalam Tuhan ya makk.", " ", "- Wish all you the best from anakmu, ocep -"],
+  strings: ["Dibalik kado surat yang mamak udah baca (abis ini selain kado surat dan kado website, ada kado video juga ya mak, di click aja terus pokoknya :D), ocep harap mamak tetep lakuin sesuai dengan apa yang Tuhan mau ya.", "Mau gimanapun juga, hubungan kita sebagai mamak dan anak, dilandaskan dengan tujuan untuk kita sama-sama tetap selalu bertumbuh hidup didalam Tuhan ya makk.", " ", "- Wish all you the best from anakmu, ocep -"],
   startDelay: 2000,
   speed: 75,
   waitUntilVisible: true
@@ -180,7 +180,7 @@ function showTrimsVideo() {
   var trims = document.getElementById('trims');
   if (trims) {
     trims.classList.remove('d-none');
-    trims.innerHTML = '<video id="video-trims" width="320" height="240" controls autoplay><source src="untuk mamakk vynnaaaa (low quality).mp4" type="video/mp4">Browser tidak mendukung video.</video>';
+     trims.innerHTML = '<iframe id="video-trims" width="320" height="240" src="https://www.youtube.com/embed/PuMIfspsBro?autoplay=1" title="YouTube video" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>';
   }
 }
 
